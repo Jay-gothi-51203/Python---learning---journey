@@ -1,0 +1,62 @@
+#############################   TYPE CASTING   #########################
+
+# TYPE CASTING: Type casting means converting one data type into another data type.
+
+# For example:
+# Changing a string (like "5") into an integer (like 5).
+# Changing an integer (like 10) into a string (like "10").
+
+x = "5" # this number is not an integer number it is a string because it is written in between double quotes so whatever written in between double quotes is known as string. we convert this string into integer. 
+a = "5"
+b = "5"
+
+print(a+b)  # this will print 55 instead of 10.
+print(type(a))
+
+c = int(a) # It will convert string 'a' into integer 'a'.
+d = int(b) # It will convert string 'b' into integer 'b'.
+print(c+d) # this will print 10.
+print(type(c))
+
+# Different types of type casting.
+# 1.) Implicit Type Casting (Automatic): Python automatically converts one data type to another when needed. You don’t have to do anything — Python does it for you!
+
+# Example: 
+a = 5 # this is an integer value.
+b = 4.5 # this is a float value.
+
+print("sum: ",a+b)
+
+#  2. Explicit Type Casting (Manual)
+# You manually tell Python to change the type using functions like:
+
+# int() – to convert to integer.
+# float() – to convert to float
+# str() – to convert to string
+# bool() – to convert to True/False 
+
+# Example: 
+p = "70" # This 70 is not a number, it is string because it is written in between double quotes.
+q = "25" # This 25 is also not a number, it is string because it is written in between double quotes.
+
+print(p+q), print(type(p)), print(type(q))
+
+r = int(p) # This will convert "p = "70" string into integer.
+s = int(q) # This will convert "q = "25" string into integer.
+
+print(r+s), print(type(r)), print(type(s))
+
+
+# 
+
+num_string = "98"
+print(num_string)
+print(type(num_string))
+
+num_float = float(num_string)
+print(num_float)
+print(type(num_float))
+
+num_int = int(num_string)
+print(num_int)
+print(type(num_int))
